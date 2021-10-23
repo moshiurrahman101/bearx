@@ -1,7 +1,9 @@
 @media (max-width: 992px) {
-  .banner {
-    h1 {
-      font-size: $subHeadingSize;
+  #banner {
+    .overlay {
+      h1 {
+        font-size: $subHeadingSize;
+      }
     }
   }
   .footer__menu {

@@ -20,7 +20,7 @@ function Footer() {
                     </li>
                 </ul>
                 <div className="footer__socialIcon">
-                    <a href="discord.gg/bear-x"><i className="fab fa-discord fa-3x"></i></a>
+                    <a href="https://discord.gg/bear-x"><i className="fab fa-discord fa-3x"></i></a>
                     <a href="https://twitter.com/bearX_NFT"><i className="fab fa-twitter fa-3x"></i></a>
                 </div>
                 <p className="footer__credit">All Rights Reserved 2021</p>
