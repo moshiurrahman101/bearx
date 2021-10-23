@@ -6,6 +6,7 @@ import LunchDetails from '../components/LunchDetails'
 import Mint from '../components/Mint'
 import Navbar from '../components/Navbar'
 import Roadmap from '../components/Roadmap'
+import RootToken from '../components/RootToken'
 import Team from '../components/Team'
 
 function Homepage() {
@@ -15,6 +16,7 @@ function Homepage() {
             <Banner />
             <LunchDetails />
             <Mint />
+            <RootToken />
             <Roadmap />
             <Faq />
             <Team />

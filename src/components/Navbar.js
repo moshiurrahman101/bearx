@@ -8,12 +8,12 @@ function Navbar() {
             <div id="topbar">
                 <div className="container">
                     <div className="topbar__icons">
-                        <Link to="/#">
+                        <a href="discord.gg/bear-x">
                             <i className="fab fa-discord"></i><span>Discord</span>
-                        </Link>
-                        <Link to="/#">
+                        </a>
+                        <a href="https://twitter.com/bearX_NFT">
                             <i className="fab fa-twitter"></i><span>Twitter</span>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

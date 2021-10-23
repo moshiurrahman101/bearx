@@ -94,24 +94,32 @@
 }
 
 #mint .mint__button {
-  background: transparent;
+  background: #ffae41;
   padding: 10px 80px;
-  border: 3px solid #ffae41;
   font-size: 50px;
   font-weight: bold;
-  color: #ffae41;
+  color: #050517;
   border-radius: 30px 0px 30px 0px;
   margin: 30px 0;
 }
 
 #mint p {
-  font-family: Poppins;
   font-style: italic;
-  font-weight: 300;
   font-size: 24px;
   line-height: 158.6%;
   color: #ffffff;
   opacity: 0.8;
+}
+
+#rootToken {
+  padding: 50px 0;
+  background: #050517;
+}
+
+#rootToken p {
+  text-align: center;
+  color: #c4c2c2;
+  font-size: 42px;
 }
 
 #roadmap {
@@ -167,10 +175,9 @@
 #team .team__bottom--text {
   max-width: 646px;
   margin: 0 auto;
-  font-family: Poppins;
   font-style: italic;
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 42px;
   color: #050517;
   text-align: center;
   padding-bottom: 30px;
@@ -209,7 +216,7 @@
 
 #team .team__card .team__item .team__title span {
   margin-left: 10px;
-  color: #3c3cf0;
+  color: #2cb2fe;
 }
 
 #team .team__card .team__item p {
@@ -228,14 +235,15 @@
 }
 
 #footer .logo {
-  width: 280px;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #footer .logo img {
@@ -246,9 +254,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 10px;
@@ -262,6 +269,7 @@
   text-decoration: none;
   font-size: 42px;
   color: #ffffff;
+  margin-left: -60px;
 }
 
 #footer .footer__socialIcon {
@@ -291,6 +299,25 @@
 @media (max-width: 992px) {
   .banner h1 {
     font-size: 64px;
+  }
+  .footer__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+  }
+  .footer__menu li {
+    list-style: none;
+  }
+  .footer__menu li a {
+    text-decoration: none;
+    font-size: 42px;
+    color: #ffffff;
+    margin-left: 0px !important;
   }
 }
 

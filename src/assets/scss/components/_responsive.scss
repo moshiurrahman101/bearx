@@ -4,6 +4,21 @@
       font-size: $subHeadingSize;
     }
   }
+  .footer__menu {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        font-size: $textSize;
+        color: #ffffff;
+        margin-left: 0px !important;
+      }
+    }
+  }
 }
 @media (max-width: 768px) {
   .section__heading {

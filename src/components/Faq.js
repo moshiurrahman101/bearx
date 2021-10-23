@@ -22,41 +22,17 @@ function Faq() {
                 </div>
             </div>
             
-            <div class="card" id="rootToken">
-                <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    What is ROOT?
-                    </button>
-                </h5>
-                </div>
-                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                ROOT is the token that provides an added layer to the BearX ecosystem. It is used for Bears to get their hands on a MiniBearX, vote, take part in challenges and go to future events IRL. ROOT will be launched soon after all 3,700 BearX has found a safe location to inhabit and grow.<br/><br/>
-
-                -Want a MiniBearX? 350 $ROOT is the cost (need two in your wallet to do so)
-                -Vote with your ROOT. Put your $ROOT where your mouth is and let the BearX council know who’s boss.
-                -Events IRL? You got it, but you’d need to hold $ROOT tokens to get access. Otherwise you’ll be billy no bearmates.
-                -Challenges. Fun challenges for giveaways of $ROOT, ETH and NFTs exclusive to those who own a certain number of ROOT.
-                <br/><br/>
-                $ROOT is made as an extension to the BearX ecosystem and is a utility token but predominantly built for fun. It is NOT an investment and has NO economic value.
-                </div>
-                </div>
-            </div>
+            
             <div class="card">
                 <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    So....how will any value be attached to $ROOT?
+                    When is mint, and how do i get on the whitelist?
                     </button>
                 </h5>
                 </div>
                 <div id="collapseFour" class="collapse show" aria-labelledby="collapseFour" data-parent="#accordion">
-                <div class="card-body">
-                ROOT will be used for the following 
-                -Ability to change name of your BearX
-                -Have voting power for the future of BearX
-                -To mint a MiniBearX
+                <div class="card-body">Minting is 100% whitelist only. Should you wish to get on the whitelist, please head to our discord here - and learn how you can get onto it before mint. If you are not able to get onto the whitelist, you will be able to buy from Opensea once BearX begins minting.
                 </div>
                 </div>
             </div>

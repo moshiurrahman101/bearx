@@ -1,5 +1,5 @@
 import React from 'react'
-import sectionBanner from '../assets/images/ezgif 1.png'
+import sectionBanner from '../assets/images/mint.gif'
 function Mint() {
     return (
         <div id="mint">

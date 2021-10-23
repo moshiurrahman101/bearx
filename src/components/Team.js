@@ -29,14 +29,12 @@ function Team() {
                     <div className="team__item">
                         <img src={Bayliss} alt="Team"/>
                         <span className="team__title">Bayliss
-                        <span><i className="fab fa-twitter"></i></span>
                         </span>    
                         <p>Developer</p>                    
                     </div>
                     <div className="team__item">
                         <img src={Gyoza} alt="Team"/>
                         <span className="team__title">Gyoza
-                        <span><i className="fab fa-twitter"></i></span>
                         </span>    
                         <p>Community Lead</p>                    
                     </div>
@@ -57,7 +55,6 @@ function Team() {
                     <div className="team__item">
                         <img src={Jaarth} alt="Team"/>
                         <span className="team__title">Jaarth 
-                        <span><i className="fab fa-twitter"></i></span>
                         </span>    
                         <p>BearX Writer</p>                    
                     </div>
