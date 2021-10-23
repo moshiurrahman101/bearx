@@ -1,0 +1,18 @@
+#faq {
+  background: $secondaryColor;
+  padding: 50px 0;
+  .card {
+    background: transparent;
+  }
+  h5 {
+    button {
+      color: #ffffff;
+      font-size: $textSize;
+    }
+  }
+  .card-body {
+    font-size: $iconText;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}

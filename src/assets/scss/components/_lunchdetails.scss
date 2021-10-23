@@ -1,0 +1,13 @@
+#lunchDetails {
+  margin-top: 50px;
+  .sectionHeading {
+    font-size: $headingSize;
+    color: $primaryColor;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    font-size: $textSize;
+  }
+}

@@ -1,0 +1,15 @@
+.banner {
+  text-align: center;
+  h1 {
+    font-size: 160px;
+    font-weight: bold;
+    color: $primaryColor;
+  }
+  p {
+    font-size: $textSize;
+    color: $secondaryColor;
+  }
+  img {
+    width: 100%;
+  }
+}

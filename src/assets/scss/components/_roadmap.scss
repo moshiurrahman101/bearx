@@ -1,0 +1,23 @@
+#roadmap {
+  margin-top: 50px;
+  .roadmap__heading {
+    font-size: $headingSize;
+    color: $primaryColor;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .roadmap__details {
+    padding: 50px 0;
+    background: $primaryColor;
+  }
+  .roadmap__listheading {
+    font-size: $subHeadingSize;
+    font-weight: bold;
+  }
+  ul {
+    li {
+      font-size: $textSize;
+    }
+  }
+}

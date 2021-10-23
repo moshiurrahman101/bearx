@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+  .banner {
+    h1 {
+      font-size: $subHeadingSize;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section__heading {
+    font-size: $subHeadingSize !important;
+  }
+  #team .section__heading {
+    font-size: $subHeadingSize !important;
+  }
+  #roadmap .roadmap__heading {
+    font-size: $subHeadingSize !important;
+  }
+  #lunchDetails .sectionHeading {
+    font-size: $subHeadingSize !important;
+  }
+}

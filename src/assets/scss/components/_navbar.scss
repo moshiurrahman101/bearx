@@ -1,0 +1,38 @@
+#topbar {
+  background: $primaryColor;
+  .topbar__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: $iconText;
+      padding: 0 20px;
+      span {
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      font-size: $iconText;
+      font-weight: 600;
+      padding: 0 20px;
+    }
+    .navbar__button {
+      padding: 3px 7px;
+      border: 2px solid $primaryColor;
+      border-radius: 10px 0px 10px 0px;
+    }
+  }
+}
+
+.navbar-brand {
+  img {
+    max-width: 180px;
+  }
+}

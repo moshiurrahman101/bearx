@@ -1,0 +1,46 @@
+#team {
+  .section__heading {
+    margin: 50px 0;
+  }
+  .team__bottom--text {
+    max-width: 646px;
+    margin: 0 auto;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: $secondaryColor;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .team__card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .team__item {
+      padding: 10px 0;
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .team__title {
+        font-size: $textSize;
+        font-weight: bold;
+        color: $secondaryColor;
+        span {
+          margin-left: 10px;
+          color: rgb(60, 60, 240);
+        }
+      }
+      p {
+        color: $primaryColor;
+        font-size: $iconText;
+      }
+      img {
+        width: 100%;
+        border-radius: 20px;
+      }
+    }
+  }
+}
