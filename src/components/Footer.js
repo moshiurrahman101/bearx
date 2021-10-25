@@ -13,7 +13,7 @@ function Footer() {
                         <Link>Terms &#38; Conditions</Link>
                     </li>
                     <li>
-                        <Link>Lore</Link>
+                        <Link to="/lore">Lore</Link>
                     </li>
                     <li>
                         <Link>Smart Contract</Link>
