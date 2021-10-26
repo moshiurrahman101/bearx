@@ -6,8 +6,9 @@
   }
   h5 {
     button {
-      color: #ffffff;
+      color: $primaryColor;
       font-size: $textSize;
+      text-align: left;
     }
   }
   .card-body {

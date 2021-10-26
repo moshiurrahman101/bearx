@@ -15,14 +15,14 @@ function Team() {
                     <div className="team__item">
                         <img src={akeem} alt="Team"/>
                         <span className="team__title">Akeem
-                        <span><i className="fab fa-twitter"></i></span>
+                        <a href="https://twitter.com/akeemojuko"><i className="fab fa-twitter"></i></a>
                         </span>    
                         <p>Creator</p>                    
                     </div>
                     <div className="team__item">
                         <img src={Obelisxx} alt="Team"/>
                         <span className="team__title">Obelisxx
-                        <span><i className="fab fa-twitter"></i></span>
+                        <a href="https://twitter.com/obelisxx"><i className="fab fa-twitter"></i></a>
                         </span>    
                         <p>Artist</p>                    
                     </div>
@@ -41,14 +41,14 @@ function Team() {
                     <div className="team__item">
                         <img src={Koki} alt="Team"/>
                         <span className="team__title">Koki
-                        <span><i className="fab fa-twitter"></i></span>
+                        <a href="https://twitter.com/Koki_NFT "><i className="fab fa-twitter"></i></a>
                         </span>    
                         <p>Concept Art</p>                    
                     </div>
                     <div className="team__item">
                         <img src={Diemension} alt="Team"/>
                         <span className="team__title">Diemension
-                        <span><i className="fab fa-twitter"></i></span>
+                        <a href="https://twitter.com/AlexanderNikish"><i className="fab fa-twitter"></i></a>
                         </span>    
                         <p>Art + Design</p>                    
                     </div>

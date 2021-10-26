@@ -1,8 +1,9 @@
 #roadmap {
-  margin-top: 50px;
+  padding-top: 50px;
+  background: $primaryColor;
   .roadmap__heading {
     font-size: $headingSize;
-    color: $primaryColor;
+    color: $secondaryColor;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;

@@ -1,8 +1,9 @@
 import React from 'react'
-
+import bannerImage from '../assets/images/lore-banner.jpg'
 function LoreContent() {
     return (
         <div id="lore">
+            <img src={bannerImage} alt="lore banner"/>
             <div className="container">
                 <div className="content">
                     <p>Long ago, the world knew peace. Many races like bears and apes lived together in harmony, establishing their own cities in which to live.</p>

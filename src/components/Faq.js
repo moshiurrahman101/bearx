@@ -10,14 +10,41 @@ function Faq() {
                 <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    I have an idea / I want to partner with BearX - how do i go about doing that?
+                    </button>
+                </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">Great. Please contact thre team on discord and we can go from there, we are always open to hearing ideas.
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is the total supply of BearX?
+                    </button>
+                </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">Great. Please contact thre team on Only 3,700 Genesis BearX exist
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     When is launch?
                     </button>
                 </h5>
                 </div>
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                Launch will be a fair and semi stealth launch. We’ve noticed that the overhyped launches does nothing but cause high gas wars and people missing out that were truly a fan of the art. So, launch will happen with short notice - this will be announced in our discord (link to it)
+                <div class="card-body">Please check your discord for announcements on when the launch will be.
                 </div>
                 </div>
             </div>

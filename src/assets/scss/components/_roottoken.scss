@@ -6,4 +6,13 @@
     color: #c4c2c2;
     font-size: $textSize;
   }
+  .rootToken__content {
+    ul {
+      li {
+        color: $primaryColor;
+        font-size: $iconText;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }

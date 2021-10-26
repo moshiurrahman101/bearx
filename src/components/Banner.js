@@ -1,5 +1,4 @@
 import React from 'react'
-import bannerImage from '../assets/images/Group 36971.png'
 function Banner() {
     return (
         <div id="banner">

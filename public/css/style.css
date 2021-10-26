@@ -16,9 +16,17 @@
 
 #topbar .topbar__icons a {
   text-decoration: none;
-  color: #fff;
+  color: #050517;
   font-size: 28px;
   padding: 0 20px;
+}
+
+#topbar .topbar__icons a .fa-discord {
+  color: #5560ec;
+}
+
+#topbar .topbar__icons a .fa-twitter {
+  color: #2cb2fe;
 }
 
 #topbar .topbar__icons a span {
@@ -29,12 +37,21 @@
   font-size: 28px;
   font-weight: 600;
   padding: 0 20px;
+  color: white;
+}
+
+.navbar-nav .nav-itemhover {
+  color: white !important;
 }
 
 .navbar-nav .nav-item .navbar__button {
   padding: 3px 7px;
   border: 2px solid #ffae41;
   border-radius: 10px 0px 10px 0px;
+}
+
+#navbar {
+  background: #050517;
 }
 
 .navbar-brand img {
@@ -127,13 +144,20 @@
   font-size: 42px;
 }
 
+#rootToken .rootToken__content ul li {
+  color: #ffae41;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
 #roadmap {
-  margin-top: 50px;
+  padding-top: 50px;
+  background: #ffae41;
 }
 
 #roadmap .roadmap__heading {
   font-size: 90px;
-  color: #ffae41;
+  color: #050517;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -163,8 +187,9 @@
 }
 
 #faq h5 button {
-  color: #ffffff;
+  color: #ffae41;
   font-size: 42px;
+  text-align: left;
 }
 
 #faq .card-body {
@@ -178,7 +203,7 @@
 }
 
 #team .team__bottom--text {
-  max-width: 646px;
+  max-width: 940px;
   margin: 0 auto;
   font-style: italic;
   font-weight: 400;
@@ -219,7 +244,7 @@
   color: #050517;
 }
 
-#team .team__card .team__item .team__title span {
+#team .team__card .team__item .team__title a {
   margin-left: 10px;
   color: #2cb2fe;
 }
@@ -346,8 +371,13 @@
   background: #050517;
 }
 
+#lore img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 #lore p {
-  font-size: 42px;
+  font-size: 22px;
   color: rgba(255, 255, 255, 0.616);
 }
 
