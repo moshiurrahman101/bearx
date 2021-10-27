@@ -9,7 +9,7 @@ function RootToken() {
                         <ul type="bullet">
                             <li>ROOT is the token that provides an added layer to the BearX ecosystem. It is used for Bears to get their hands on a MiniBearX, vote, take part in challenges and go to future events IRL. ROOT will be launched soon after all 3,700 BearX has found a safe location to inhabit and grow.</li>
 
-                            <li>Want a MiniBearX? 250 $ROOT is the cost (need two BearX NFTs in your wallet to do so)</li>
+                            <li>Want a MiniBearX? 1000 $ROOT is the cost (need two BearX NFTs in your wallet to do so)</li>
 
                             <li>Vote with your ROOT. Put your $ROOT where your mouth is and let the BearX council know who’s boss.</li>
 
