@@ -32,12 +32,12 @@ function Team() {
                         </span>    
                         <p>Developer</p>                    
                     </div>
-                    <div className="team__item">
+                    {/* <div className="team__item">
                         <img src={Gyoza} alt="Team"/>
                         <span className="team__title">Gyoza
                         </span>    
                         <p>Community Lead</p>                    
-                    </div>
+                    </div> */}
                     <div className="team__item">
                         <img src={Koki} alt="Team"/>
                         <span className="team__title">Koki
