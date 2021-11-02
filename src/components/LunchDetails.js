@@ -8,7 +8,7 @@ function LunchDetails() {
                 <div className="col-lg-8">
                     <h2 className="sectionHeading">What Are the launch details?</h2>
                     <p>
-                    The launch will be 100% through whitelist only. This means no gas wars, so everyone mints at the same price (0.035ETH+gas). To win a whitelist place, please join our discord and check the announcements. 
+                    The launch will be through whitelist only. This means no gas wars, so everyone mints at the same price (0.035ETH+gas). To win a whitelist place, please join our discord and check the announcements. 
                     </p>
                 </div>
                 <div className="col-lg-4">

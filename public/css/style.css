@@ -150,6 +150,10 @@
   margin-bottom: 20px;
 }
 
+#rootToken .rootToken__content ul .remove-point {
+  list-style: none;
+}
+
 #roadmap {
   padding-top: 50px;
   background: #ffae41;

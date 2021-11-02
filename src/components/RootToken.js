@@ -17,7 +17,7 @@ function RootToken() {
 
                             <li>Challenges. Fun challenges for giveaways of $ROOT, ETH and NFTs exclusive to holders those who has $ROOT bags.</li>
 
-                            <li><i>$ROOT is made as an extension to the BearX ecosystem and is a utility token but predominantly built for fun. It is NOT an investment and has NO economic value.</i></li>
+                            <li className="remove-point"><i>$ROOT is made as an extension to the BearX ecosystem and is a utility token but predominantly built for fun. It is NOT an investment and has NO economic value.</i></li>
                         </ul>
                     </div>
                 </div>

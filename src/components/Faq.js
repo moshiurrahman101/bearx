@@ -16,7 +16,7 @@ function Faq() {
                 </div>
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">Great. Please contact thre team on discord and we can go from there, we are always open to hearing ideas.
+                <div class="card-body">Great! Please contact the team on discord and we can go from there. We are always open to hearing ideas.
                 </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ function Faq() {
                 </div>
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">Great. Please contact thre team on Only 3,700 Genesis BearX exist
+                <div class="card-body">There is only 3,700 BearX Genesis NFTs. There will however be a further 5,300 MiniBearX NFTs that will soon be available.
                 </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ function Faq() {
                 </h5>
                 </div>
                 <div id="collapseFour" class="collapse show" aria-labelledby="collapseFour" data-parent="#accordion">
-                <div class="card-body">Minting is 100% whitelist only. Should you wish to get on the whitelist, please head to our discord here - and learn how you can get onto it before mint. If you are not able to get onto the whitelist, you will be able to buy from Opensea once BearX begins minting.
+                <div class="card-body">Minting is through whitelist only. Should you wish to get on the whitelist, please head to our discord here - and learn how you can get onto it before mint. If you are not able to get onto the whitelist, you will be able to buy from Opensea once BearX begins minting.
                 </div>
                 </div>
             </div>
