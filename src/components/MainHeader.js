@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png'
+
 function MainHeader() {
+    const [ myAccount, setMyAccount ] = useState("Connect Wallet");
+
     return (
         <div>
             <nav id="navbar" class="navbar navbar-expand-lg navbar-dark ">
@@ -26,8 +30,14 @@ function MainHeader() {
                             <a class="nav-link " href="/#team">Team</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbar__button" href="/#">
-                                    Connect Wallet
+                            <Link class="nav-link " to="/challenges">Challenges</Link>
+                            </li>
+                            <li class="nav-item">
+                            <Link class="nav-link " to="/claim">Claim</Link>
+                            </li>
+                            <li class="nav-item">
+                                <a className="nav-link navbar__button" href="/#" >
+                                    { myAccount }
                                 </a>
                             </li>
                         </ul>

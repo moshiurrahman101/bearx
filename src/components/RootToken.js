@@ -15,7 +15,8 @@ function RootToken() {
 
                             <li>Events IRL? You got it, but you’d need to hold $ROOT tokens to get access. Otherwise you’ll be billy no bearmates.</li>
 
-                            <li>Challenges. Fun challenges for giveaways of $ROOT, ETH and NFTs exclusive to holders those who has $ROOT bags.</li>
+                            {/* <li>Challenges. Fun challenges for giveaways of $ROOT, ETH and NFTs exclusive to holders those who has $ROOT bags.</li> */}
+                            <li>Challenges. Fun challenges for giveaways of $ROOT, ETH and NFTs exclusive to holders those who hold $ROOT bags.</li>
 
                             <li className="remove-point"><i>$ROOT is made as an extension to the BearX ecosystem and is a utility token but predominantly built for fun. It is NOT an investment and has NO economic value.</i></li>
                         </ul>

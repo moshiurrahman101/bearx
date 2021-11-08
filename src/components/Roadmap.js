@@ -10,7 +10,7 @@ function Roadmap() {
                         <h3 className="roadmap__listheading">Before mint</h3>
                         <ul type="square">
                             <li>Whitelist process initiated and completed. </li>
-                            <li>AMAs + Setup of the community wallet containing 5% of sales revenue. This will be used to buy listings on the floor every month.</li>
+                            <li>AMAs + Setup of the community wallet containing 5% of sales revenue.</li>
                             <li>Initial Lore released</li>
                         </ul>
                     </div>

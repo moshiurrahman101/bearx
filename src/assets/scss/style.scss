@@ -11,6 +11,9 @@
 @import "./components/footer";
 @import "./components/responsive";
 @import "./components/lore";
+@import "./components/challenges/banner";
+@import "./components/challenges/challengesbox";
+@import "./components/claim/banner";
 * {
   font-family: $fontFamily;
 }

@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import sectionBanner from '../assets/images/mint.gif'
+
 function Mint() {
+
+
     return (
         <div id="mint">
             <div className="container">
@@ -9,10 +12,11 @@ function Mint() {
                         <img src={sectionBanner} alt="section banner"/>
                     </div>
                     <div className="col-lg-7">
-                        <h2 className="mint__heading">-/3,700 AVAILABLE</h2>
-                        <button className="mint__button">Mint Now</button>
+                        <h2 className="mint__heading">SOLD OUT</h2>
+                        <center>
+                        </center>
                         <h2 className="mint__heading">0.05ETH+Gas</h2>
-                        <p>*If your wallet address is on the whitelist - you will be able to mint for the above price a maximum of 2 BearX NFTs. If you click the mint button and there is a high gas fee / gas error - it means this wallet is not whitelisted.</p>
+                        <p>*If your wallet address is on the whitelist - you will be able to mint for the above price a maximum of 2 BearX NFTs. If you click the mint button and there is an error - it means this wallet is not whitelisted, or that you have already minted the maximum allowed.</p>
                     </div>
                 </div>
             </div>

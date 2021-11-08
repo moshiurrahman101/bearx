@@ -1,4 +1,32 @@
+// challenges page
+@media (min-width: 320px) and (max-width: 526px) {
+  #challenges__banner {
+    padding: 10px !important;
+    .challenges__banner--heading {
+      font-size: 48px !important;
+    }
+  }
+  .challengesBox__items {
+    flex-direction: column !important;
+    justify-content: center !important;
+    .challengesBox__item {
+      .challengesBox__item--wrapper {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
 @media (max-width: 992px) {
+  #challenges__banner {
+    padding: 30px !important;
+  }
+  .challengesBox__item--wrapper {
+    width: 250px !important;
+    .challengeBox__item--badge {
+      margin-left: 167px !important;
+    }
+  }
   #banner {
     .overlay {
       h1 {

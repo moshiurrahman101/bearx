@@ -34,7 +34,7 @@
 }
 
 .navbar-nav .nav-item .nav-link {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   padding: 0 20px;
   color: white;
@@ -330,7 +330,37 @@
   margin-top: 30px;
 }
 
+@media (min-width: 320px) and (max-width: 526px) {
+  #challenges__banner {
+    padding: 10px !important;
+  }
+  #challenges__banner .challenges__banner--heading {
+    font-size: 48px !important;
+  }
+  .challengesBox__items {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .challengesBox__items .challengesBox__item .challengesBox__item--wrapper {
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 992px) {
+  #challenges__banner {
+    padding: 30px !important;
+  }
+  .challengesBox__item--wrapper {
+    width: 250px !important;
+  }
+  .challengesBox__item--wrapper .challengeBox__item--badge {
+    margin-left: 167px !important;
+  }
   #banner .overlay h1 {
     font-size: 64px;
   }
@@ -405,6 +435,113 @@
 #lore p {
   font-size: 22px;
   color: rgba(255, 255, 255, 0.616);
+}
+
+#challenges__banner {
+  padding: 100px;
+}
+
+#challenges__banner .challenges__banner--heading {
+  font-size: 88px;
+}
+
+#challenges__banner .challenges__banner--text {
+  font-size: 28px;
+}
+
+#challengesBox {
+  margin-bottom: 50px;
+}
+
+#challengesBox .challengesBox__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item {
+  margin: 30px 0;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item .challengesBox__item--wrapper {
+  width: 350px;
+  background: #f4cf02;
+  padding-bottom: 5px;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item .challengesBox__item--wrapper .challengeBox__item--badge {
+  background-color: blue;
+  padding: 8px 20px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 266px;
+  color: #fff;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item .challengesBox__item--wrapper .challengesBox__item--content {
+  width: 100%;
+  border: 3px solid black;
+  position: relative;
+  margin-left: -4px;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item .challengesBox__item--wrapper .challengesBox__item--content img {
+  width: 100%;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item .challengesBox__item--wrapper .challengesBox__content--bottom {
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  margin-left: -4px;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item .challengesBox__item--wrapper .challengesBox__content--bottom h4 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#challengesBox .challengesBox__items .challengesBox__item .challengesBox__item--wrapper .challengesBox__content--bottom p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#claim__banner {
+  background-color: #050517;
+}
+
+#claim__banner .claim__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 0;
+}
+
+#claim__banner .claim__main img {
+  width: 520px;
+  margin: 0 auto;
+}
+
+#claim__banner .claim__main p {
+  max-width: 600px;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
 }
 
 * {

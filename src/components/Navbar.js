@@ -13,6 +13,9 @@ function Navbar() {
                         <a href="https://twitter.com/bearX_NFT">
                             <i className="fab fa-twitter"></i><span>Twitter</span>
                         </a>
+                        <a href="https://bearxnft.medium.com/">
+                            <i className="fab fa-medium"></i><span>Medium</span>
+                        </a>
                     </div>
                 </div>
             </div>
