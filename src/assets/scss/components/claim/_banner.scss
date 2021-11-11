@@ -14,12 +14,15 @@
       width: 100%;
       .claim__item {
         width: 250px;
-        padding: 30px;
+        padding: 5px 10px;
         background: $primaryColor;
+        border-radius: 10px;
+        box-shadow: 3px 7px 20px rgb(78, 51, 0);
         p {
-          color: black;
-          font-size: 24px;
+          color: $secondaryColor;
+          font-size: $iconText;
           font-weight: bold;
+          text-align: left;
         }
       }
     }

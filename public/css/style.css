@@ -588,14 +588,18 @@
 
 #claim__banner .claim__main .claim__cards .claim__item {
   width: 250px;
-  padding: 30px;
+  padding: 5px 10px;
   background: #ffae41;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 7px 20px #4e3300;
+          box-shadow: 3px 7px 20px #4e3300;
 }
 
 #claim__banner .claim__main .claim__cards .claim__item p {
-  color: black;
-  font-size: 24px;
+  color: #050517;
+  font-size: 28px;
   font-weight: bold;
+  text-align: left;
 }
 
 #claim__banner .claim__main p {
