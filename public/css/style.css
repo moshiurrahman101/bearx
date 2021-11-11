@@ -331,6 +331,25 @@
 }
 
 @media (min-width: 320px) and (max-width: 526px) {
+  .claim__button {
+    margin-top: 50px;
+    width: 100% !important;
+    padding: 10px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .claim__button button {
+    font-size: 42px !important;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+  }
   #challenges__banner {
     padding: 10px !important;
   }
@@ -352,6 +371,25 @@
 }
 
 @media (max-width: 992px) {
+  .claim__button {
+    margin-top: 50px;
+    width: 100% !important;
+    padding: 10px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .claim__button button {
+    font-size: 42px !important;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+  }
   #challenges__banner {
     padding: 30px !important;
   }
@@ -438,19 +476,23 @@
 }
 
 #challenges__banner {
+  background: #050517;
   padding: 100px;
 }
 
 #challenges__banner .challenges__banner--heading {
   font-size: 88px;
+  color: #ffae41;
 }
 
 #challenges__banner .challenges__banner--text {
+  color: #bbbaba;
   font-size: 28px;
 }
 
 #challengesBox {
-  margin-bottom: 50px;
+  background: #050517;
+  padding-bottom: 50px;
 }
 
 #challengesBox .challengesBox__items {
@@ -532,16 +574,75 @@
   padding: 50px 0;
 }
 
-#claim__banner .claim__main img {
-  width: 520px;
-  margin: 0 auto;
+#claim__banner .claim__main .claim__cards {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+#claim__banner .claim__main .claim__cards .claim__item {
+  width: 250px;
+  padding: 30px;
+  background: #ffae41;
+}
+
+#claim__banner .claim__main .claim__cards .claim__item p {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 #claim__banner .claim__main p {
-  max-width: 600px;
+  max-width: 900px;
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+#claim__banner .claim__main .claim__button {
+  margin-top: 50px;
+  width: 900px;
+  padding: 50px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#claim__banner .claim__main .claim__button button {
+  font-size: 64px;
+  padding: 20px 40px;
+  border: none;
+  background: #ffae41;
+  text-transform: uppercase;
+}
+
+#claim__banner .claim__content {
+  padding-bottom: 100px;
+}
+
+#claim__banner .claim__content h4 {
+  color: #ffae41;
+  font-size: 64px;
+  margin-top: 30px;
+}
+
+#claim__banner .claim__content p {
+  font-size: 42px;
+  color: #c2c2c2;
+  margin-bottom: 0;
+}
+
+#claim__banner .claim__content a {
+  font-size: 42px;
+  color: #c2c2c2;
 }
 
 * {

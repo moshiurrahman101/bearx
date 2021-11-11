@@ -1,5 +1,6 @@
 #challengesBox {
-  margin-bottom: 50px;
+  background: $secondaryColor;
+  padding-bottom: 50px;
   .challengesBox__items {
     display: flex;
     flex-wrap: wrap;

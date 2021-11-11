@@ -1,9 +1,12 @@
 #challenges__banner {
+  background: $secondaryColor;
   padding: 100px;
   .challenges__banner--heading {
     font-size: 88px;
+    color: $primaryColor;
   }
   .challenges__banner--text {
+    color: rgb(187, 186, 186);
     font-size: $iconText;
   }
 }
