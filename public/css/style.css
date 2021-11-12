@@ -593,13 +593,26 @@
   border-radius: 10px;
   -webkit-box-shadow: 3px 7px 20px #4e3300;
           box-shadow: 3px 7px 20px #4e3300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #claim__banner .claim__main .claim__cards .claim__item p {
   color: #050517;
   font-size: 28px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 #claim__banner .claim__main p {
@@ -626,6 +639,8 @@
   border: none;
   background: #ffae41;
   text-transform: uppercase;
+  -webkit-box-shadow: 3px 7px 20px #4e3300;
+          box-shadow: 3px 7px 20px #4e3300;
 }
 
 #claim__banner .claim__content {

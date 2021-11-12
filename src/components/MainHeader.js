@@ -30,9 +30,6 @@ function MainHeader() {
                             <a class="nav-link " href="/#team">Team</a>
                             </li>
                             <li class="nav-item">
-                            <Link class="nav-link " to="/challenges">Challenges</Link>
-                            </li>
-                            <li class="nav-item">
                             <Link class="nav-link " to="/claim">Claim</Link>
                             </li>
                             <li class="nav-item">

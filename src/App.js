@@ -14,7 +14,6 @@ function App() {
       
       <Route path="/" exact component={Homepage}/>
       <Route path="/lore" component={Lore}/>
-      <Route path="/challenges" component={Challenges}/>
       <Route path="/claim" component={Claim}/>
     </Switch>
     <Footer />

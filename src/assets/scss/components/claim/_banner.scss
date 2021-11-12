@@ -18,11 +18,15 @@
         background: $primaryColor;
         border-radius: 10px;
         box-shadow: 3px 7px 20px rgb(78, 51, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         p {
           color: $secondaryColor;
           font-size: $iconText;
           font-weight: bold;
-          text-align: left;
+          text-align: center;
         }
       }
     }
@@ -44,6 +48,7 @@
         border: none;
         background: $primaryColor;
         text-transform: uppercase;
+        box-shadow: 3px 7px 20px rgb(78, 51, 0);
       }
     }
   }
