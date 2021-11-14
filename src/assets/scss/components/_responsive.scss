@@ -1,5 +1,16 @@
 // challenges page
 @media (min-width: 320px) and (max-width: 526px) {
+  #topbar {
+    .topbar__icons {
+      a {
+        text-decoration: none;
+        color: $secondaryColor;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 20px;
+      }
+    }
+  }
   .claim__slider {
     flex-direction: column;
     justify-content: center;

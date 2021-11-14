@@ -31,3 +31,16 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+.section__subheading {
+  font-size: $subHeadingSize;
+  color: #f5f5f5;
+  font-weight: bold;
+}
+.section__paragraph {
+  font-size: $textSize;
+  color: #f5f5f5;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
