@@ -1,5 +1,13 @@
 // challenges page
 @media (min-width: 320px) and (max-width: 526px) {
+  .claim__slider {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .claim__slider__item {
+      margin: 20px 0;
+    }
+  }
   .claim__button {
     margin-top: 50px;
     width: 100% !important;
@@ -11,6 +19,14 @@
       font-size: $textSize !important;
       padding: 10px 30px;
       margin-bottom: 20px;
+    }
+  }
+
+  .claim__content {
+    h4 {
+      font-size: 58px !important;
+      margin-top: 30px;
+      font-weight: bold;
     }
   }
   #challenges__banner {
@@ -31,6 +47,15 @@
 }
 
 @media (max-width: 992px) {
+  #claim__banner {
+    .claim__main {
+      .claim__cards {
+        .claim__item {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
   .claim__button {
     margin-top: 50px;
     width: 100% !important;
